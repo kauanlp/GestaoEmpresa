@@ -1,5 +1,4 @@
-public class Produto {
-    private int id;
+public class TipoEndereco {
     private String nome;
     private String descricao;
 }
