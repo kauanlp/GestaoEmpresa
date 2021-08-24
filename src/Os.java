@@ -1,3 +1,11 @@
+import java.util.Collection;
+
 public class Os {
-    long dtInicio;
+
+    private long dtInicio;
+
+    private Empresa empresa;
+    private Collection<Servico> servicos;
+    private Fornecedor fornecedor;
+
 }

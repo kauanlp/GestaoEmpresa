@@ -1,5 +1,6 @@
 public enum TipoFornecimento {
     
-    VENDA, SERVICO;
+    VENDA,
+    SERVICO;
 
 }

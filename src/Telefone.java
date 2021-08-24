@@ -4,4 +4,6 @@ public class Telefone {
     private String ddi;
     private String numero;
 
+    private TipoTelefone tipoTelefone;
+
 }

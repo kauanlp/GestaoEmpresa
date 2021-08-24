@@ -6,4 +6,8 @@ public class Endereco {
     private String bairro;
     private String complemento;
 
+    private TipoLogradouro tipoLogradouro;
+    private TipoEndereco tipoEndereco;
+    private Cidade cidade;
+
 }
