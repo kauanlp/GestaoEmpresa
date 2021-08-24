@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.Collection;
 
 public class Fornecedor {
@@ -24,14 +23,32 @@ public class Fornecedor {
     private Collection<Cnae> cnaes;
     private Endereco endereco;
 
-    public void salvar(){};
-    public void alterar(){};
-    public Collection<Fornecedor> consultar(){return new ArrayList<Fornecedor>();};
-    public void excluir(){};
-    public void inativar(){};
-    public void ativar(){};
-    public void addContato(Contato contato){};
-    public void validarCnpj(){};
-    public void validarListaFornecimento(){};
-    
+    public void salvar() {
+    };
+
+    public void alterar() {
+    };
+
+    public Collection<Fornecedor> consultar() {
+        return null;
+    };
+
+    public void excluir() {
+    };
+
+    public void inativar() {
+    };
+
+    public void ativar() {
+    };
+
+    public void addContato(Contato contato) {
+    };
+
+    public void validarCnpj() {
+    };
+
+    public void validarListaFornecimento() {
+    };
+
 }
